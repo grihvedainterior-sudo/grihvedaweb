@@ -257,7 +257,7 @@ h1 span {
 
 .hero-points div,
 .offer-card,
-.floating-card,
+.stage-badge,
 .vision-panel,
 .showcase-card,
 .stats-band,
@@ -357,7 +357,7 @@ h1 span {
   width: 100%;
 }
 
-.floating-card {
+.stage-badge {
   position: static;
   width: min(430px, 100%);
   padding: 18px 20px;
@@ -365,7 +365,7 @@ h1 span {
   z-index: 1;
 }
 
-.floating-card p {
+.stage-badge p {
   margin-bottom: 8px;
   color: var(--gold);
   font-size: 0.8rem;
@@ -374,16 +374,16 @@ h1 span {
   font-weight: 800;
 }
 
-.floating-card strong {
+.stage-badge strong {
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.floating-card-dark {
+.stage-badge-dark {
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
 }
 
-.floating-card-light {
+.stage-badge-light {
   background: linear-gradient(135deg, rgba(127, 224, 195, 0.12), rgba(255, 255, 255, 0.05));
 }
 
@@ -586,7 +586,7 @@ h1 span {
     padding: 26px 0 10px;
   }
 
-  .floating-card {
+  .stage-badge {
     position: static;
     width: 100%;
     margin-top: 16px;
