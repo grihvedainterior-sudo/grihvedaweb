@@ -259,6 +259,7 @@ h1 span {
 .offer-card,
 .stage-badge,
 .vision-panel,
+.package-card,
 .showcase-card,
 .stats-band,
 .stack-card,
@@ -419,6 +420,80 @@ h1 span {
   margin-bottom: 16px;
 }
 
+.package-section {
+  margin-bottom: 28px;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.package-card {
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.package-card h3 {
+  font-size: 2rem;
+  line-height: 1.05;
+  margin-bottom: 16px;
+}
+
+.package-card p {
+  color: var(--muted);
+  line-height: 1.72;
+}
+
+.package-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.package-price span {
+  color: var(--gold);
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+.package-price strong {
+  font-family: "Syne", sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.package-card ul {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 22px 0;
+  list-style: none;
+}
+
+.package-card li {
+  padding: 12px 14px;
+  border-radius: 16px;
+  color: #f8e8d1;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  font-weight: 700;
+}
+
+.package-card-landing {
+  background:
+    linear-gradient(145deg, rgba(37, 211, 102, 0.16), rgba(255, 255, 255, 0.05)),
+    rgba(255, 255, 255, 0.04);
+}
+
+.package-card-commerce {
+  background:
+    linear-gradient(145deg, rgba(243, 182, 99, 0.2), rgba(139, 124, 255, 0.11)),
+    rgba(255, 255, 255, 0.04);
+}
+
 .grid-showcase {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -576,6 +651,7 @@ h1 span {
 
   .hero-points,
   .grid-showcase,
+  .package-grid,
   .stats-band,
   .process-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -611,6 +687,7 @@ h1 span {
 
   .hero-points,
   .grid-showcase,
+  .package-grid,
   .stats-band,
   .process-grid {
     grid-template-columns: 1fr;
@@ -625,6 +702,7 @@ h1 span {
   .process-panel,
   .contact-panel,
   .offer-card,
+  .package-card,
   .showcase-card,
   .stack-card,
   .process-card {
